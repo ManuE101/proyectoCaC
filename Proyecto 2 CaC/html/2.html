@@ -42,9 +42,18 @@
     </header>
 
 <main>
-    <div class="descripcion">
-        <h2>¡La fiesta que te hace falta!</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repudiandae ab commodi? Quas dolore accusantium excepturi dignissimos suscipit, ad sunt provident ullam aliquid perferendis expedita, iure neque cum error est?</p>
+    <div class="container__banner">
+        <div class="banner">
+            <div class="banner__icon-confetti">
+                <img src="../img/confetti.png" id="icon_confetti" alt="confetti">
+            </div>
+            <div class="banner__icon-bola">
+                <img src="../img/perspective_matte-48-128x128.png" id="icon_bola" alt="bola">
+            </div>
+            <div class="banner_text">
+                <h2>Cada instante de emoción, cada detalle en la producción y cada evento realizado nos emociona y queremos compartirlo con ustedes porque sentimos pasión por nuestro trabajo.</h2>                   
+            </div>
+        </div>
     </div>
 
     <div class="eventos-destacados">
@@ -109,35 +118,46 @@
             </div>
         </div>
 
+        <div class="evento">
+            <h3>Nuestros salones</h3>
+            <div class="container-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kyEVgBR5OAY?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
     </div>
 
-<div class="form" id="form">
-    <div class="titulo">
-        <h2>¡Consultá tus dudas!</h2>
-        <p>Dejanos tu mensaje para que podamos comunicarnos con vos y responder pregunta que tengas.</p>
-    </div>
-    <div class="form-class">
+    <div class="form" id="form">
+        <div class="titulo">
+            <h2>¡Consultá tus dudas!</h2>
+            <p>Dejanos tu mensaje para que podamos comunicarnos con vos y responder pregunta que tengas.</p>
+        </div>
+        <div class="form-class">
             <div class="container">
-                <form class="formulario">
-                    <input type="text" required>
-                    <label class="lbl-nombre"><span class="text-nomb">Nombre</span></label>
+                <form action="" id="form" class="formulario">
+                    <div class="formulario">
+                        <input type="text" required>
+                        <label class="lbl-nombre"><span class="text-nomb">Nombre</span></label>
+                    </div>
+                    <div class="formulario">
+                        <input type="text" required>
+                        <label class="lbl-nombre"><span class="text-nomb">Apellido</span></label>
+                    </div>
+                    <div class="formulario">
+                        <input type="email" id="mail" required>
+                        <label class="lbl-nombre"><span class="text-nomb">Email</span></label>
+                    </div>
+                    <button type="submit" class="btn_enviar_formulario" id="mandar">Enviar</button>
+                    <!-- <input type="button" class="btn_enviar_formulario" id="mandar" value="Enviar"> -->
+                    <p class="warnings" id="warnings"></p>
                 </form>
-                <form class="formulario">
-                    <input type="text" required>
-                    <label class="lbl-nombre"><span class="text-nomb">Apellido</span></label>
-                </form>
-                <form class="formulario">
-                    <input type="email" required>
-                    <label class="lbl-nombre"><span class="text-nomb">Email</span></label>
-                </form>
-                <input type="button" class="btn_enviar_formulario" value="Enviar">
             </div>
-        <div class="parrafo">
-            <h3>Necesitas ayuda? Contactános.</h3>
-            <p>Contamos con atención personalizada para cada uno de nuestros 32 salones. Nuestra propuesta es integral y contamos con promociones y facilidades de pago durante todo el año. Si tenes alguna consulta escribinos y un miembro de nuestro equipo se pondrá en contacto con vos para ayudarte y asesorarte para que puedas vivir la experiencia Jano´s de la mejor manera.</p>
+            <div class="parrafo">
+                <h3>Necesitas ayuda? Contactános.</h3>
+                <p>Contamos con atención personalizada para cada uno de nuestros 16 salones. Nuestra propuesta es integral y contamos con promociones y facilidades de pago durante todo el año. Si tenes alguna consulta escribinos y un miembro de nuestro equipo se pondrá en contacto con vos para ayudarte y asesorarte para que puedas vivir la experiencia de la mejor manera.</p>
+            </div>
         </div>
     </div>
-</div>
 
 </main>
 

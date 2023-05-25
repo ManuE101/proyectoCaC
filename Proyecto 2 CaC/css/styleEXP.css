@@ -7,24 +7,30 @@
 }
 
 .eventos-destacados{
-    background-color: rgb(210, 124, 230);;
+    background-color: whitesmoke;
     padding: 2rem;
     margin: 2rem;
     border-radius: 10px;
-    color: white;
-}
-
-.evento{
-    background-color: rgb(180, 88, 201);
-    margin: 3rem;
-    padding: 2rem;
-    border-radius: 10px;
+    color: rgb(174, 73, 197);
 }
 
 .eventos-destacados h2{
     text-align: center;
     font-size: 2.5rem;
     margin: 1rem;
+}
+
+.evento{
+    background-color: rgb(197, 121, 214);
+    color: white;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.evento h3{
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .slider{
@@ -118,6 +124,11 @@
     80%{margin-left:-300%;}
     100%{margin-left:-300%;}
 
+}
+.container-video{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 
 

@@ -34,9 +34,9 @@ main{
     border-radius: 10px;
 }
 
-.text_cover{
+/* .text_cover{
     width: 40%;
-}
+} */
 
 .text_cover h1{
     font-size: 50px;
@@ -45,7 +45,7 @@ main{
 
 .text_cover p{
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 10px;
     color: white;
 }
 
@@ -79,15 +79,18 @@ main{
     cursor: pointer;
     margin-left: 16px;
     transition: background, color, 300ms;
+    text-decoration: none;
 }
+
 .btn_cover_readMore:hover{
     background-color: rgb(140, 57, 158);
 }
 
 
-.media__cover{
+/* .media__cover{
     width:60%;
-}
+    justify-content: center;
+} */
 
 .media__cover img{
     width:100%;
@@ -127,7 +130,7 @@ main{
 
 .banner_text h2{
     color: white;
-    font-size: 32px;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 

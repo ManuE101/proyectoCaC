@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/headeryfooter.css">
     <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../css/styleNP.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +16,7 @@
     <title>Kingta</title>
     <script src="https://kit.fontawesome.com/9b90b537f7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <div class="container__header">
@@ -46,11 +48,18 @@
         <div class="cover">
 
             <div class="text_cover">
-                <h1>KINGTA</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione porro sequi in consequatur eum voluptatem blanditiis voluptates praesentium dolores esse, expedita similique accusantium? Sequi, voluptates nobis totam adipisci corporis officiis?</p>
+                <div class="text_cover">
+                    <h1>KINGTA</h1>
+                    <h2>Imaginá tu fiesta. Elegí el mejor lugar.</h2>
+                    <p>Contamos con diferentes espacios ideales para realizar tu evento de la manera que sueñas.</p>
+                    <p>Ya sea al aire libre o en nuestros exclusivos salones.</p>
+                    <p>Equipados con la última tecnología en técnica y sonido, dos elementos que harán de su celebración un verdadero éxito.</p>
+                    <p>Tenemos una excelente propuesta gastronómica que invita a degustar desde los más exquisitos sabores criollos hasta los más refinados platos gourmet.</p>
+                    <p>No te vuelvas loco organizando, elegi alguno de nuestros planes y disfruta</p>
+                    
+                </div>
                 <div class="buttons_cover">
-                    <input type="button" class="btn_cover_register" value="Registrarse">
-                    <input type="button" class="btn_cover_readMore" value="Mas Informacion">
+                    <a href="3.html" class="btn_cover_readMore">Consulta nuestros planes</a>
                 </div>
             </div>
 
@@ -69,8 +78,8 @@
                     <img src="../img/perspective_matte-48-128x128.png" id="icon_bola" alt="bola">
                 </div>
                 <div class="banner_text">
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ab.</h2>
-                    <a href="2.html">Leer mas</a>                    
+                    <h2>Cada instante de emoción, cada detalle en la producción y cada evento realizado nos emociona y queremos compartirlo con ustedes porque sentimos pasión por nuestro trabajo.</h2>
+                    <a href="2.html">Conocer más</a>                    
                 </div>
             </div>
         </div>
@@ -80,23 +89,78 @@
         <div class="tabla">
             <h2>Basico</h2>
             <img src="../img/planes/plan-1.jpg" id="foto" alt="plan-1">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero perferendis iste sunt! Eum, ab dolores!</p>
-            <h3>$</h3>
-            <a href="#" class="reserv">Reservar</a>
+            <p>Plan basico: con lo escencial para empezarcon el evento que soñas</p>
+            <p>Consulta lo que incluye</p>
+            <a href="#popupBasico" class="reserv">Consultar</a>
         </div>
         <div class="tabla">
-            <h2>Completo</h2>
+            <h2>Standart</h2>
             <img src="../img/planes/plan-2.jpeg" id="foto" alt="plan-2">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam expedita rerum quasi totam esse unde.</p>
-            <h3>$</h3>
-            <a href="#" class="reserv">Reservar</a>
+            <p>Plan Standart: con lo que necesitas para que tu fiesta este completa</p>
+            <p>Consulta lo que incluye</p>
+            <a href="#popupStandart" class="reserv">Consultar</a>
         </div>
         <div class="tabla">
             <h2>Premium</h2>
-            <img src="../img/planes/plan-3.jpeg" id="foto" alt="plan-3">            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic sunt nostrum quis magni ex.</p>
-            <h3>$</h3>
-            <a href="#" class="reserv">Reservar</a>
+            <img src="../img/planes/plan-3.jpeg" id="foto" alt="plan-2">
+            <p>Plan Premium: con todo lo que soñaste para disfrutar con los tuyos</p>
+            <p>Consulta lo que incluye</p>
+            <a href="#popupPremium" class="reserv">Consultar</a>
+            
+        </div>
+        <div id="popupBasico" class="overlay">
+            <div id="popupBody">
+                <h2>Plan Basico</h2>
+                <a id="cerrar" href="#planes">&times;</a>
+                <div class="popupContent">
+                    <ul>
+                        <li>Incluye Vajilla, mesas y sillas vestidas</li>
+                        <li>Camareros de acuerdo a la capacidad del salon</li>
+                        <li>Musica funcional en ambientes comunes</li>
+                        <li>Ambientacion y Decoracion</li>
+                        <li>Fotografia y video Profecional</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="popupStandart" class="overlay">
+            <div id="popupBody">
+                <h2>Plan Standart</h2>
+                <a id="cerrar" href="#planes">&times;</a>
+                <div class="popupContent">
+                    <ul>
+                        <li>Incluye Vajilla, mesas y sillas vestidas</li>
+                        <li>Camareros de acuerdo a la capacidad del salon</li>
+                        <li>Musica funcional en ambientes comunes</li>
+                        <li>Ambientacion y Decoracion</li>
+                        <li>Fotografia y video Profecional</li>
+                        <li>Cotillon</li>
+                        <li>Catering: Bandejeo, Plato Principal, Mesa Dulce</li>
+                        <li>Barra Libre de Tragos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="popupPremium" class="overlay">
+            <div id="popupBody">
+                <h2>Plan Premium</h2>
+                <a id="cerrar" href="#planes">&times;</a>
+                <div class="popupContent">
+                    <ul>
+                        <li>Incluye Vajilla, mesas y sillas vestidas</li>
+                        <li>Camareros de acuerdo a la capacidad del salon</li>
+                        <li>Musica funcional en ambientes comunes</li>
+                        <li>Ambientacion y Decoracion</li>
+                        <li>Fotografia y video Profecional</li>
+                        <li>Cotillon</li>
+                        <li>Catering: Bandejeo, Plato Principal, Mesa Dulce</li>
+                        <li>Variedad de Islas</li>
+                        <li>Barra Libre de Tragos</li>
+                        <li>Fotocabina</li>
+                        <li>Show y Espectaculo</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -107,24 +171,28 @@
             <p>Dejanos tu mensaje para que podamos comunicarnos con vos y responder pregunta que tengas.</p>
         </div>
         <div class="form-class">
-                <div class="container">
-                    <form class="formulario">
+            <div class="container">
+                <form action="" id="form" class="formulario">
+                    <div class="formulario">
                         <input type="text" required>
                         <label class="lbl-nombre"><span class="text-nomb">Nombre</span></label>
-                    </form>
-                    <form class="formulario">
+                    </div>
+                    <div class="formulario">
                         <input type="text" required>
                         <label class="lbl-nombre"><span class="text-nomb">Apellido</span></label>
-                    </form>
-                    <form class="formulario">
-                        <input type="email" required>
+                    </div>
+                    <div class="formulario">
+                        <input type="email" id="mail" required>
                         <label class="lbl-nombre"><span class="text-nomb">Email</span></label>
-                    </form>
-                    <input type="button" class="btn_enviar_formulario" value="Enviar">
-                </div>
+                    </div>
+                    <button type="submit" class="btn_enviar_formulario" id="mandar">Enviar</button>
+                    <!-- <input type="button" class="btn_enviar_formulario" id="mandar" value="Enviar"> -->
+                    <p class="warnings" id="warnings"></p>
+                </form>
+            </div>
             <div class="parrafo">
                 <h3>Necesitas ayuda? Contactános.</h3>
-                <p>Contamos con atención personalizada para cada uno de nuestros 32 salones. Nuestra propuesta es integral y contamos con promociones y facilidades de pago durante todo el año. Si tenes alguna consulta escribinos y un miembro de nuestro equipo se pondrá en contacto con vos para ayudarte y asesorarte para que puedas vivir la experiencia Jano´s de la mejor manera.</p>
+                <p>Contamos con atención personalizada para cada uno de nuestros 16 salones. Nuestra propuesta es integral y contamos con promociones y facilidades de pago durante todo el año. Si tenes alguna consulta escribinos y un miembro de nuestro equipo se pondrá en contacto con vos para ayudarte y asesorarte para que puedas vivir la experiencia de la mejor manera.</p>
             </div>
         </div>
     </div>
@@ -177,5 +245,7 @@
     </footer>
 
     <script src="../js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+
 </body>
 </html>

@@ -2,16 +2,68 @@
     display: flex;
     flex-direction: column;
 }
+.cover{
+    min-height: 500px;
+}
+.text_cover h2{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+.media_cover_planes{
+    width: 60%;
+    background-size: 100% 100%;
+    animation: banner 17s infinite;
+}
+
+@keyframes banner{
+    0% ,18% {
+        background-image: url(../img/casamiento/casamiento2.jpg);
+    }
+    20% ,38%{
+        background-image: url(../img/informal/informal2.jpg);
+    }
+    40% ,58%{
+        background-image: url(../img/planes/plan-3.jpeg);
+    }
+    60% ,78%{
+        background-image: url(../img/Salones/Salon8.jpg);
+    }
+    80% ,100%{
+        background-image: url(../img/xv/xv2.jpg);
+    }
+}
 .cover_list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-self: center;
+    width: 85%;
     font-size: 1.2rem;
     font-weight: bold;
-    margin: 8px 0;
+    margin: 20px 0 8px 0;
     color: black;
+    border: 8px double rgb(210, 124, 230);
+    border-radius: 10px;
+    animation-name: cambiarColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+@keyframes cambiarColor{
+    from{
+        background-color: white;
+        color: black;
+
+    }
+    to{
+        background-color:rgb(210, 124, 230);
+        color: white;
+
+    }
+}
+
 .cover_list_item{
     display: flex;
     flex-direction: row;
@@ -23,24 +75,39 @@
 /* banner planes */
 .banner_planes{
     width: 100%;
-    /* height: 200px; */
-    margin: 0;
+    height: auto; 
+    margin: auto;
     overflow: hidden;
 }
-.banner_planes_img{
+
+.banner_planes .banner_planes_img{
     display: flex;
+    animation: scroll 40s linear infinite;
     padding: 0;
-    width: 25%;
+    width: calc(200px * 8);
+    -webkit-animation: scroll 40s linear infinite;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.banner_planes img{
+.banner_planes .banner_planes_img .slide-planes{
+    width: 75vw;
+}
+.banner_planes .slide-planes img{
     width: 100%;
 }
 
+@keyframes  scroll{
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 
-
+    100%{
+        -webkit-transform: translateX(calc(-200px * 4));
+        transform: translateX(calc(-200px * 4));
+    }
+}
 
 /* Detalle servicios */
 
@@ -63,11 +130,11 @@
 .detalle_servicios ul{
     list-style: none;
     text-align: center;
-    /* width: 85%; */
     margin: 20px;
     padding: 30px;
-    background-color:rgb(210, 124, 230);
+    /* background-color:rgb(210, 124, 230); */
     border-radius: 10px;
+    border:8px double rgb(210, 124, 230);
 }
 
 .detalle_servicios_item{
@@ -95,13 +162,12 @@
     width: 85%;
     margin-top: 20px;
     padding: 30px;
-    border:14px double rgb(210, 124, 230);
+    border:8px double rgb(210, 124, 230);
     /* box-shadow: 4px 4px rgb(119, 44, 135); */
     border-radius: 10px;
 }
 
 /* VENTANAS POPUP PLANES */
-
 .overlay { 
     position: fixed;
     top: 0;
@@ -224,8 +290,14 @@
 }
 
 @media (max-width:920px){
+    .cover{
+        min-height: 300px;
+    }
+    .media_cover_planes{
+        background-size: 50% 50%;
+    }
     .text_cover{
-        width: 100%;
+        width: 60%;
     }
     .btn_cover_register, .btn_cover_readMore{
         width: 50%;
@@ -268,6 +340,9 @@
         margin-bottom:10px;
         height: auto;
     }
+    .detalle_servicios_lista{
+        flex-direction: column;
+    }
     
     .form-class{
         flex-direction: column;
@@ -293,6 +368,14 @@
         width: 100%;
     }
 
+}
+@media (max-width:768){
+
+}
+@media (max-width:386px){
+    .media_cover_planes{
+        display: none;
+    }
 }
 
 
