@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Página-1" id="ijF3RPKuXMmj-ov1BSvK">
-    <mxGraphModel dx="2235" dy="2036" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2804" dy="2193" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,10 +119,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h-pT6bFfDpiv5yTWDlPa-104" value="" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="968" y="332" width="45" height="45" as="geometry" />
+          <mxGeometry x="968" y="302" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="h-pT6bFfDpiv5yTWDlPa-105" value="" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="637" y="320" width="45" height="45" as="geometry" />
+          <mxGeometry x="650" y="298" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="h-pT6bFfDpiv5yTWDlPa-106" value="&lt;div&gt;código correcto /&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;deshabilitar&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;teclado, deshabilitar&lt;/span&gt;&amp;nbsp;lector,&amp;nbsp;&lt;/div&gt;&lt;div&gt;mostrar en el display&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;fecha y hora de entrada,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;mostrar mensaje de éxito&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="973" y="169" width="344" height="89" as="geometry" />
