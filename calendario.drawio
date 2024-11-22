@@ -37,7 +37,7 @@
         <mxCell id="MOICCmQpvW0MQzjtMcg7-12" value="estudiar arq mañana&lt;div&gt;estudiar ing tarde&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MOICCmQpvW0MQzjtMcg7-13" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;recu arqui&lt;div&gt;recu ing&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MOICCmQpvW0MQzjtMcg7-13" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;recu arqui&lt;div&gt;recu ing&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="680" y="200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MOICCmQpvW0MQzjtMcg7-14" value="estudiar obj mañana&amp;nbsp;&lt;div&gt;estudiar dbd tarde&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="MOICCmQpvW0MQzjtMcg7-16" value="estudiar obj mañana&amp;nbsp;&lt;div&gt;estudiar dbd tarde&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MOICCmQpvW0MQzjtMcg7-17" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;recu dbd&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MOICCmQpvW0MQzjtMcg7-17" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;recu dbd&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="320" y="280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MOICCmQpvW0MQzjtMcg7-18" value="estudiar obj&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -61,13 +61,13 @@
         <mxCell id="MOICCmQpvW0MQzjtMcg7-20" value="estudiar obj&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MOICCmQpvW0MQzjtMcg7-21" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;recu oob&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MOICCmQpvW0MQzjtMcg7-21" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;recu oob&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="800" y="280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MOICCmQpvW0MQzjtMcg7-22" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;tratar de estudiar ing teoria" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MOICCmQpvW0MQzjtMcg7-23" value="teorico ing" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MOICCmQpvW0MQzjtMcg7-23" value="teorico ing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="200" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MOICCmQpvW0MQzjtMcg7-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -91,19 +91,19 @@
         <mxCell id="MOICCmQpvW0MQzjtMcg7-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MOICCmQpvW0MQzjtMcg7-31" value="segundo recu dbd" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MOICCmQpvW0MQzjtMcg7-31" value="segundo recu dbd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="320" y="440" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MOICCmQpvW0MQzjtMcg7-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MOICCmQpvW0MQzjtMcg7-33" value="teorico dbd" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MOICCmQpvW0MQzjtMcg7-33" value="teorico dbd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="560" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MOICCmQpvW0MQzjtMcg7-34" value="segundo recu ing" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MOICCmQpvW0MQzjtMcg7-34" value="segundo recu ing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="680" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MOICCmQpvW0MQzjtMcg7-35" value="segundo recu oob" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="MOICCmQpvW0MQzjtMcg7-35" value="segundo recu oob" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="800" y="440" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MOICCmQpvW0MQzjtMcg7-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
